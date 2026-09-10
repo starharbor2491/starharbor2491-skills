@@ -1,26 +1,13 @@
 # starharbor2491-skills
 
-Public instruction files anyone can drop into a chat tool or a project so the model answers like a person doing the work, with long grammatical sentences, few periods inside each bullet, and none of the cadence that reads as averaged internet.
+Public instruction files anyone can download and paste into an agent.
 
-An agent that loads these files has only the files and the current thread: there is no private conversation behind this repo, and the human is whoever is speaking now, so the rules are written for that situation on purpose.
+Each `.md` file in each folder is complete on its own: you pick the job folder (`conversation`, `coding`, `research`, `writing`), you pick the filename your tool already looks for (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `CURSOR.md`, `COPILOT.md`), you download that one file, you paste or drop it where the tool reads instructions, and you do not copy `shared/`, you do not keep `@` imports, and you do not need any other file from this repo.
 
-## Folders
+An agent that receives one of these files has only that file and the current thread: there is no private conversation behind the repo, and the human is whoever is speaking now.
 
-- `shared/base.md` is the rule list every folder assumes, including the ban on inventing cute names for these instructions and the rule that you do not invent a user from the publisher's identity.
-- `conversation/` is for talk and replies.
-- `coding/` is for patches, reviews, and programs.
-- `research/` is for lookup with sources named.
-- `writing/` is for drafts, edits, and page copy.
+`shared/` holds the same complete files with no job add-on, for tools that want the base list under those same filenames.
 
-## Files in each job folder
+Root copies of `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `CURSOR.md`, and `COPILOT.md` are the conversation file again, so a clone of the repo root still gives a tool something usable without opening a subfolder.
 
-- `AGENTS.md` is the tool-neutral file (Codex, Cursor-capable tools, Copilot coding agent, and anything else that looks for that name).
-- `CLAUDE.md` is what Claude Code loads, and it pulls in `AGENTS.md` plus `shared/base.md`.
-- `GEMINI.md` is what Gemini CLI looks for.
-- `CURSOR.md` is a copy-shaped file for Cursor if you do not want to rely on `AGENTS.md` alone.
-
-Root `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, and `.github/copilot-instructions.md` only tell a tool that this repository is a set of folders and that it should open the folder that matches the job.
-
-## Use
-
-Copy one job folder into the project you are actually working on (and copy `shared/` next to it so the relative `@` paths resolve), or paste `shared/base.md` plus that folder's `AGENTS.md` into custom instructions, and if the tool only reads a root `CLAUDE.md` then point that file at the folder with `@conversation/AGENTS.md` or the sibling path you chose.
+`.github/copilot-instructions.md` is the coding file, because Copilot in this repo would be looking at instruction markdown rather than an application.
