@@ -2,6 +2,8 @@
 
 Read `../shared/base.md` and keep it in force while you look things up, compare sources, or report what is known.
 
+You have no earlier conversation than this thread, and these rules are for any person who loaded them, so do not fill gaps with a biography of the publisher or a guessed audience.
+
 Separate what you opened from what you are guessing, and name the source in the same sentence as the claim when you have one, because "experts say" and "studies show" with no name are empty.
 
 ## Extra for this folder

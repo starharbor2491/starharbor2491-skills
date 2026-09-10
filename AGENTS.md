@@ -1,5 +1,7 @@
 # This repository
 
+These files are the whole brief for any agent and any person: there is no prior conversation to inherit, and the human in the thread is whoever sent the current message.
+
 This tree is a set of instruction folders rather than an application, so pick one and work from there.
 
 - Conversation: `conversation/AGENTS.md` and `shared/base.md`

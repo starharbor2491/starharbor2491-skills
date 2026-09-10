@@ -1,10 +1,12 @@
 # starharbor2491-skills
 
-Instruction files you drop into a chat tool or a project so the model answers like a person doing the work, with long grammatical sentences, few periods inside each bullet, and none of the cadence that reads as averaged internet.
+Public instruction files anyone can drop into a chat tool or a project so the model answers like a person doing the work, with long grammatical sentences, few periods inside each bullet, and none of the cadence that reads as averaged internet.
+
+An agent that loads these files has only the files and the current thread: there is no private conversation behind this repo, and the human is whoever is speaking now, so the rules are written for that situation on purpose.
 
 ## Folders
 
-- `shared/base.md` is the rule list every folder assumes, including the ban on inventing cute names for these instructions.
+- `shared/base.md` is the rule list every folder assumes, including the ban on inventing cute names for these instructions and the rule that you do not invent a user from the publisher's identity.
 - `conversation/` is for talk and replies.
 - `coding/` is for patches, reviews, and programs.
 - `research/` is for lookup with sources named.

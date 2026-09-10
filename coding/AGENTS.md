@@ -2,6 +2,8 @@
 
 Read `../shared/base.md` and keep it in force while you edit, review, or explain code.
 
+You have no earlier conversation than this thread, and these rules are for any person who loaded them, so take the repo and the request in front of you as the whole brief.
+
 Write what a person would leave in a repo they have to open next month: smallest change that solves the asked problem, names from the domain, comments only for the weird part (why it exists, what broke, what you refused to touch), and one way to do a thing in the codebase you are already in.
 
 ## Extra for this folder

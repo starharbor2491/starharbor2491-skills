@@ -2,6 +2,8 @@
 
 Read `../shared/base.md` and keep it in force while you draft, rewrite, or edit prose.
 
+You have no earlier conversation than this thread, and these rules are for any person who loaded them, so write to the reader they named (or to a general reader if they did not name one) and do not assume a private in-joke from this repo.
+
 The page or chapter should still scan (headings, bullets, scenes) while each string runs as long as grammar will carry, with as few periods as the thought allows.
 
 ## Extra for this folder
